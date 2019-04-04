@@ -1,0 +1,52 @@
+<!doctype>
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Захиалга өгөх </title>
+<style>
+body{
+margin-left:30%;
+margin-right:30%;
+border-style:solid ;
+border-width:3px;
+padding:5px;
+}
+form{
+text-align:center;
+}
+#grad1 {
+  width:80%;
+  background-color: yellow; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right,green,white); /* Standard syntax (must be last) */
+}
+</style>
+</head>
+<body>
+<header>
+<H1>
+Онлайн захиалга өгөх 
+</H1>
+</header>
+<article>
+<p>Эрхэм хэрэглэгч та онлайнаар захиалга өгөх бол дараах хэсгийг бөглөнө үү .</p>
+<form action="orderpage.php">
+ <input type="text" name="firstname" value="ОВОГ">
+  <br>  <br>
+  <input type="text" name="lastname" value="НЭР">
+ <br>  <br>
+  <input type="text" name="phonenumber" value="УТАС">
+ <br>  <br>
+  <input type="email" name="lastname" value="Имэйл">
+<br>  <br>
+  <input type="radio" name="ROOMTYPE" value="LUX" checked> LUX <br>
+  <input type="radio" name="ROOMTYPE" value="SIMPLE lUX"> ЭНГИЙН LUX <br>
+  <input type="radio" name="ROOMTYPE" value="SIMPLE"> ЭНГИЙН <br>  <br>
+ <input type="number" name="numberroom" value="та хэдэн өрөө захиалах вэ ?"> <br>  <br>
+<input type="submit" id="grad1" value="ИЛГЭЭХ">
+</form>
+</article>
+<footer>Мэдээллээ үнэн зөв бөглөхийг анхаарна уу ! </footer>
+</body>
+
+</html>

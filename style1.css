@@ -1,0 +1,159 @@
+header li{
+    float:right;
+    background-color: none;
+  }
+  header li a {
+      
+  }
+  .from {
+    float:right;
+    background-color: #ff8533 ;
+    padding: 20px 16px;
+
+  }
+  
+/* .head1 a:hover {
+background-color:#ff8533;
+ } */
+ .head1 a{
+   float: right;
+   padding-top: 3em;
+   padding-right: 4em;
+   font-style: initial;
+  font-size: 18px;
+ }
+
+}
+.head1 {
+list-style-type: none;
+margin:0;
+padding:0;
+overflow: hidden; 
+background-color:white;
+text-decoration-color: black;
+
+}
+.head2{
+  float:right;
+  background-color:#ff8533;
+}
+.dropdown-content {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .dropdown{
+    overflow: hidden;
+    background-color:#ff8533;
+  }
+  
+  .dropdown {
+    float: left;
+     font-size: 16px;
+    color:white;
+    text-align: center;
+     padding: 15px 16px; 
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    /* overflow: hidden; */
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px; 
+    border: none;
+    outline: none;
+    color:white;
+    padding: none;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+ .dropdown:hover .dropbtn {
+    background-color:tomato;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#ff8533;
+     min-width: 160px; 
+    
+    /* z-index: 1; */
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: none;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color:#66b3ff;
+  }
+  
+   .dropdown:hover .dropdown-content {
+    display: block;
+  } 
+
+li {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+   background-color:#ff8533;  
+}
+ li a{
+    display:block;
+    color:white;
+    text-align:center;
+    padding: 15px 50px;
+    text-decoration: none;
+}
+ li a:hover{
+    background-color:salmon;
+}
+ li{
+    float:left;
+}
+
+
+.foot1 i:hover{
+background-color: paleturquoise;
+
+}
+footer{
+background-color:#F5F5F5;
+}
+.bold1{
+background-color:	#F5F5F5;
+
+}
+.bold2{
+  background-color: white;
+}
+
+.menu2 {
+list-style-type: none;
+margin:0;
+padding:0;
+background-color:#ff944d; 
+} 
+.menu2 a{
+display:block;
+color:white;
+text-align:center;
+padding: 15px 50px;
+text-decoration: none;
+}
+/* li a:hover{
+background-color:salmon; */
+}
+li{
+float:left;
+}
+
